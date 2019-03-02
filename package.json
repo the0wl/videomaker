@@ -1,0 +1,19 @@
+{
+  "name": "videomaker",
+  "version": "1.0.0",
+  "description": "Criador de conteúdo em formato de vídeo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/the0wl/videomaker.git"
+  },
+  "author": "KelvinSeibt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/the0wl/videomaker/issues"
+  },
+  "homepage": "https://github.com/the0wl/videomaker#readme"
+}
