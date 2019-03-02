@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/the0wl/videomaker/issues"
   },
-  "homepage": "https://github.com/the0wl/videomaker#readme"
+  "homepage": "https://github.com/the0wl/videomaker#readme",
+  "dependencies": {
+    "prompts": "^2.0.3"
+  }
 }
