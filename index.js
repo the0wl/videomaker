@@ -1,14 +1,14 @@
-const prompts = require('prompts');
+var readLine = require('readline-sync')
 
-function init() {
-    const data = await prompts({
-        type: 'number',
-        name: 'value',
-        message: 'How old are you?',
-        validate: value => value < 18 ? `Nightclub is 18+ only` : true
-    });
+function main() {
     
-    console.log(data); // => { value: 24 }
+    const videoSearchContent = {}
+    const videoSearchPrefix = ['What is', 'Who is']
+
+    videoSearchContent.word = readLine.question('Word to search? ')
+    videoSearchContent.prefix = readLine.keyInSelect(videoSearchPrefix, 'Prefix for search:')
+
+    console.log(videoSearchPrefix[videoSearchContent.prefix] + ' ' + videoSearchContent.word)
 }
 
-init()
+main()

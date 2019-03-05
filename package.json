@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/the0wl/videomaker#readme",
   "dependencies": {
-    "prompts": "^2.0.3"
+    "readline-sync": "^1.4.9",
+    "wikijs": "^4.13.0"
   }
 }
